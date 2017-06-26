@@ -1,0 +1,38 @@
+.main {
+  margin: 40px;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+.flex-parent {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.card-back {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
